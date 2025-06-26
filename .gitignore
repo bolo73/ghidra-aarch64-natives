@@ -1,0 +1,34 @@
+# ----------------------------------------------------------------
+# .gitignore for Ghidra aarch64 Natives Project
+# ----------------------------------------------------------------
+
+# Ignore the compressed packages that we will upload to GitHub Releases.
+# This is the most important rule for this project.
+*.tar.gz
+*.zip
+*.7z
+
+# Ignore common operating system files
+#
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore common editor and IDE configuration folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+*~
